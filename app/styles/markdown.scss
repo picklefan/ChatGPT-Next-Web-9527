@@ -188,12 +188,12 @@
 }
 
 .markdown-body small {
-  font-size: 90%;
+  font-size: 100%;
 }
 
 .markdown-body sub,
 .markdown-body sup {
-  font-size: 75%;
+  font-size: 100%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -391,22 +391,22 @@
 
 .markdown-body h3 {
   font-weight: var(--base-text-weight-semibold, 600);
-  font-size: 1.25em;
+  font-size: 1.35em;
 }
 
 .markdown-body h4 {
   font-weight: var(--base-text-weight-semibold, 600);
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 .markdown-body h5 {
   font-weight: var(--base-text-weight-semibold, 600);
-  font-size: 0.875em;
+  font-size: 1.1em;
 }
 
 .markdown-body h6 {
   font-weight: var(--base-text-weight-semibold, 600);
-  font-size: 0.85em;
+  font-size: 1em;
   color: var(--color-fg-muted);
 }
 
@@ -450,7 +450,7 @@
 .markdown-body samp {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
     Liberation Mono, monospace;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .markdown-body pre {
@@ -458,7 +458,7 @@
   margin-bottom: 0;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
     Liberation Mono, monospace;
-  font-size: 12px;
+  font-size: 14px;
   word-wrap: normal;
 }
 
@@ -796,7 +796,7 @@
 .markdown-body tt {
   padding: 0.2em 0.4em;
   margin: 0;
-  font-size: 85%;
+  font-size: 95%;
   white-space: break-spaces;
   background-color: var(--color-neutral-muted);
   border-radius: 6px;
@@ -812,7 +812,7 @@
 }
 
 .markdown-body samp {
-  font-size: 85%;
+  font-size: 95%;
 }
 
 .markdown-body pre code {
@@ -841,7 +841,7 @@
 .markdown-body pre {
   padding: 16px 16px 8px 16px;
   overflow: auto;
-  font-size: 85%;
+  font-size: 95%;
   line-height: 1.45;
   border-radius: 6px;
 }
@@ -863,7 +863,7 @@
 .markdown-body .csv-data th {
   padding: 5px;
   overflow: hidden;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
   text-align: left;
   white-space: nowrap;
@@ -895,7 +895,7 @@
 }
 
 .markdown-body .footnotes {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-fg-muted);
   border-top: 1px solid var(--color-border-default);
 }
